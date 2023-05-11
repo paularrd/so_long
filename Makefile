@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: fle-tolg <fle-tolg@student.42.fr>          +#+  +:+       +#+         #
+#    By: fle-tolg  <fle-tolg@student.42angouleme    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/27 11:57:23 by fle-tolg          #+#    #+#              #
-#    Updated: 2022/11/25 11:25:47 by fle-tolg         ###   ########.fr        #
+#    Updated: 2023/05/11 14:42:39 by fle-tolg         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -33,7 +33,7 @@ RM = rm -f
 
 OBJ = $(SRC:.c=.o)
 
-SRC = 	main.c\
+SRC = 	sources/main.c\
 		sources/read_map.c\
 		sources/verif_map.c\
 		sources/initialize_map.c\

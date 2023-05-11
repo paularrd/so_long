@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fle-tolg <fle-tolg@student.42.fr>          +#+  +:+       +#+        */
+/*   By: fle-tolg  <fle-tolg@student.42angouleme    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 13:56:12 by fle-tolg          #+#    #+#             */
-/*   Updated: 2022/11/25 11:12:49 by fle-tolg         ###   ########.fr       */
+/*   Updated: 2023/05/11 14:42:53 by fle-tolg         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/so_long.h"
+#include "../includes/so_long.h"
 
 int	close_program(int keycode, t_data *img)
 {
